@@ -5,19 +5,60 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/debugbar
 /vendor
-.env
-.env.backup
-.env.production
 .phpactor.json
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-/auth.json
 /.fleet
 /.idea
 /.nova
 /.vscode
 /.zed
+.vapor/
+/tests/Coverage
+/tests/profile.xml
+/tests/type-coverage.xml
+.phpstan-tmp/
+/tmp
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.env.production
+.env.staging
+.env.backup
+
+### Php Cs Fixer ###
+.php-cs-fixer.cache
+
+### Coverage directory used by tools like phpunit and pest
+coverage.xml
+/.coverage
+
+### Avoid to be pwned ###
+auth.json
+
+### Laravel IDE Helper ###
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
